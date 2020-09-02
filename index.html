@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7ed8d3a91b.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="./imgs/fawkes.png">
+    <script src="script.js" defer></script>
+
+    <title>Fawkes Discord bot</title>
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <br />
+        <h1>Fawkes Bot</h1>
+
+        <center>
+            <div class="fawkes"></div>
+        </center>
+        <nav class="navbar navbar-expand-sm bg-trans justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://discord.com/api/oauth2/authorize?client_id=748198877160538252&permissions=0&scope=bot">Invite Fawkes</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="text-center container">
+        <h3>A sophisticated multipurpose Discord bot</h3>
+        <h1 style="font-weight:800;">Core Features</h1>
+        <br />
+        <br />
+        <div class="row">
+            <div class="col text-center">
+                <i class="fas fa-campground icon"></i>
+                <br />
+                <br />
+                <p class="icon-text"><strong><a href="#Fun Commands">Fun Commands</a></strong></p>
+                <p>A list of fun commands can be found here</p>
+            </div>
+
+            <div class="col text-center">
+                <i class="fas fa-exclamation icon"></i>
+                <br />
+                <br />
+                <p class="icon-text"><strong><a href="#Fun Facts">Fun Facts</a></strong></p>
+                <p>A list of fun facts can be found here</p>
+            </div>
+
+
+            <div class="col text-center">
+                <i class="fas fa-hand-holding-usd icon"></i>
+                <br />
+                <br />
+                <p class="icon-text"><strong><a href="#Economy System">Economy System</a></strong></p>
+                <p>You can earn money by accessing to the economy commands</p>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+        <div class="row">
+            <div class="col text-center">
+                <i class="fas fa-hammer icon"></i>
+                <br />
+                <br />
+                <p class="icon-text"><strong><a href="#Moderation Commands">Moderation Commands</a></strong></p>
+                <p>A list of moderation commands can be found here</p>
+            </div>
+
+
+            <div class="col text-center">
+                <i class="	fas fa-random icon"></i>
+                <br />
+                <br />
+                <p class="icon-text">
+                    <strong><a href="#Random Images">Random Images</a>
+                    </strong>
+                </p>
+                <p>Random images can be found here</p>
+            </div>
+
+
+            <div class="col text-center">
+                <i class="fas fa-plus icon"></i>
+                <br />
+                <br />
+                <p class="icon-text"><strong><a href="#Other Commands">And Many More</a></strong></p>
+                <p>Other commands can be found here</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <h2 style="font-weight:800;">List of Commands</h2>
+        <p>All commands use
+            <quote>>></quote> as prefix, but Fawkes can also be mentioned to call commands.</p>
+
+        <a name="Fun Commands">
+            <h3>Fun Commands [11]</h3>
+        </a>
+        <table class="table table-dark table-hover">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Commands</th>
+                    <th style="text-align: center">
+                        Description
+                    </th>
+                    <th style="text-align: center"> Usage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align: center">meme</td>
+                    <td style="text-align: center">Plenty of memes can be found here</td>
+                    <td style="text-align: center">>>meme</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">catmeme</td>
+                    <td style="text-align: center">Plenty of Cats memes can be found here</td>
+                    <td style="text-align: center">>>catmeme</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">poll</td>
+                    <td style="text-align: center">Starts a poll</td>
+                    <td style="text-align: center">>>poll(e.g. >>poll a or b)</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">roll</td>
+                    <td style="text-align: center">Generates a random number from 1-100</td>
+                    <td style="text-align: center">>>roll</td>
+                </tr>
+                <td style="text-align: center">dice</td>
+                <td style="text-align: center">Rolls a dice between one and six</td>
+                <td style="text-align: center">>>dice</td>
+                <tr>
+                    <td style="text-align: center">coinflip</td>
+                    <td style="text-align: center">Flips a coin</td>
+                    <td style="text-align: center">>>coinflip</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">8ball</td>
+                    <td style="text-align: center">Might tell you the truth, or jinx the answer</td>
+                    <td style="text-align: center">>>8ball</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">quote</td>
+                    <td style="text-align: center">Shows motivational quotes</td>
+                    <td style="text-align: center">>>quote</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">rps</td>
+                    <td style="text-align: center">Rock Paper Scissors with the bot</td>
+                    <td style="text-align: center">>>rps</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">stopwatch</td>
+                    <td style="text-align: center">Starts the timer</td>
+                    <td style="text-align: center">>>stopwatch</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">imgtfy</td>
+                    <td style="text-align: center">For all those people who find it more convenient to bother you with their question</td>
+                    <td style="text-align: center">>>imgtfy</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+
+        <a name="Fun Facts">
+
+            <h3>Fun Facts [3]</h3>
+
+        </a>
+        <table class="table table-dark table-hover">
+
+            <thead>
+                <tr>
+                    <th style="text-align: center">Commands</th>
+                    <th style="text-align:center">
+                        Description
+                    </th>
+                    <th style="text-align: center">Usage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align: center">hpfact</td>
+                    <td style="text-align: center">Shows random Harry Potter's facts </td>
+                    <td style="text-align: center">>>hpfact</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">rfact</td>
+                    <td style="text-align: center">Shows random facts</td>
+                    <td style="text-align: center">>>rfact</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">dogfact</td>
+                    <td style="text-align: center">Shows random dog facts</td>
+                    <td style="text-align: center">>>dogfact</td>
+                </tr>
+            </tbody>
+        </table>
+        <a name="Economy System">
+            <h3>Economy System [11]</h3>
+        </a>
+        <table class="table table-dark table-hover">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Command</th>
+                    <th style="text-align: center">
+                        Description
+                    </th>
+                    <th style="text-align: center">Usage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align: center">work</td>
+                    <td style="text-align: center">work to earn money</td>
+                    <td style="text-align: center">>>work</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">beg</td>
+                    <td style="text-align: center">Pleads for extra coins from passerby</td>
+                    <td style="text-align: center">>>beg</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">balance</td>
+                    <td style="text-align: center">Checks your bank balance</td>
+                    <td style="text-align: center">>>balance / >>bal</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">deposit</td>
+                    <td style="text-align: center">Keeps your money</td>
+                    <td style="text-align: center">>>deposit / >>dep</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">withdraw</td>
+                    <td style="text-align: center">Collects cash from your bank</td>
+                    <td style="text-align: center">>>with / >>withdraw</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">send</td>
+                    <td style="text-align: center">Allows you to send your money away</td>
+                    <td style="text-align: center">>>send</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">rob</td>
+                    <td style="text-align: center">steals someone's money</td>
+                    <td style="text-align: center">>>rob</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">gamble</td>
+                    <td style="text-align: center">gambles to bet on your luck</td>
+                    <td style="text-align: center">>>gamble</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">slots</td>
+                    <td style="text-align: center">Pulls the reel to bet on your luck, wait for jackpot</td>
+                    <td style="text-align: center">>>slots</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">shop</td>
+                    <td style="text-align: center">A list of items can be found here</td>
+                    <td style="text-align: center">>>shop</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">inventory</td>
+                    <td style="text-align: center">Shows a list of items you have bought in the shop</td>
+                    <td style="text-align: center">>>inventory / >>inv</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <a name="Moderation Commands">
+            <h3>Moderation Commands [13]</h3>
+        </a>
+
+        <table class="table table-dark table-hover">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Commands</th>
+                    <th style="text-align: center">Description</th>
+                    <th style="text-align: center">Usage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align: center">mute</td>
+                    <td style="text-align: center">mutes a user</td>
+                    <td style="text-align: center">>>mute</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">unmute</td>
+                    <td style="text-align: center">unmutes a user</td>
+                    <td style="text-align: center">>>unmute</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">kick</td>
+                    <td style="text-align: center">kicks a user</td>
+                    <td style="text-align: center">>>kick</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">expell</td>
+                    <td style="text-align: center">expells(bans) a user</td>
+                    <td style="text-align: center">>>expell</td>
+
+                </tr>
+                <tr>
+                    <td style="text-align: center">unexpell</td>
+                    <td style="text-align: center">unexpells(unbans) a user</td>
+                    <td style="text-align: center">>>unexpell</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">clear</td>
+                    <td style="text-align: center">clears messages</td>
+                    <td style="text-align: center">>>clear</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">whois</td>
+                    <td style="text-align: center">gives information about a mentioned user</td>
+                    <td style="text-align: center">>>whois</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">ping</td>
+                    <td style="text-align: center">Checks the latency of the bot</td>
+                    <td style="text-align: center">>>ping</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">serverinfo</td>
+                    <td style="text-align: center">Shows the info of the server</td>
+                    <td style="text-align: center">>>serverinfo</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">invite</td>
+                    <td style="text-align: center">invites the bot to other servers</td>
+                    <td style="text-align: center">>>invite</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">rank</td>
+                    <td style="text-align: center">Shows your level and xp</td>
+                    <td style="text-align: center">>>serverinfo</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">help</td>
+                    <td style="text-align: center">Shows a list of help commands</td>
+                    <td style="text-align: center">>>help</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">about</td>
+                    <td style="text-align: center">Shows the info of the bot</td>
+                    <td style="text-align: center">>>about</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">prefix</td>
+                    <td style="text-align: center">Allows users to change prefix</td>
+                    <td style="text-align: center">>>prefix</td>
+                </tr>
+            </tbody>
+        </table>
+        <a name="Random Images">
+            <h3>Random Images [5]</h3>
+        </a>
+        <table class="table table-dark table-hover">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Command</th>
+                    <th style="text-align: center">Description</th>
+                    <th style="text-align: center">Usage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align: center">cat</td>
+                    <td style="text-align: center">Shows cats' images</td>
+                    <td style="text-align: center">>>cat</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">dog</td>
+                    <td style="text-align: center">Shows dogs' images</td>
+                    <td style="text-align: center">>>dog</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">koala</td>
+                    <td style="text-align: center">Shows koalas' images</td>
+                    <td style="text-align: center">>>koala</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">redpanda</td>
+                    <td style="text-align: center">Shows red pandas' images</td>
+                    <td style="text-align: center">>>redpanda</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">fox</td>
+                    <td style="text-align: center">Shows foxes' images</td>
+                    <td style="text-align: center">>>fox</td>
+                </tr>
+            </tbody>
+        </table>
+        <a name="Other Commands">
+            <h3>
+                Other Commands [7]
+            </h3>
+        </a>
+
+        <table class="table table-dark table-hover">
+            <thead>
+                <tbody>
+                    <tr>
+                        <th style="text-align: center">Commands</th>
+                        <th style="text-align: center">
+                            Description
+                        </th>
+                        <th style="text-align: center"> Usage</th>
+                    </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align: center">suggestion</td>
+                    <td style="text-align: center">Suggests ideas to users</td>
+                    <td style="text-align: center">>>suggest [argument]</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">avatar</td>
+                    <td style="text-align: center">sees the avatar of a user</td>
+                    <td style="text-align: center">>>avatar</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">wasted</td>
+                    <td style="text-align: center">You're dead</td>
+                    <td style="text-align: center">>>wasted</td>
+                </tr>
+
+                <tr>
+                    <td style="text-align: center">inverted</td>
+                    <td style="text-align: center">see the effect of you pfp</td>
+                    <td style="text-align: center">>>inverted</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">greyscale</td>
+                    <td style="text-align: center">greyscales an image</td>
+                    <td style="text-align: center">>>greyscale</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">triggered</td>
+                    <td style="text-align: center">triggers a user</td>
+                    <td style="text-align: center">>>triggered</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">glass</td>
+                    <td style="text-align: center">Overlays a glass texture over an image of a user</td>
+                    <td style="text-align: center">>>glass</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="right">
+        <footer> <small><p style="text-align: right">&copy; Copyright 2020, Fawkes. All Rights Reserved</p></small> </footer>
+    </div>
+
+</body>
+
+</html>
