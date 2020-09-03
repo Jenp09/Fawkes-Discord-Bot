@@ -3,8 +3,8 @@ html {
     font-family: 'PT Sans', sans-serif;
     /* background-image: url(./imgs/space-bg.svg); */
     /*background: #23272A !important;*/
-    background: #ffffff !important;
-    color: #000000 !important;
+    background: #Ffff80 !important;
+    /*background-image: linear-gradient(#Ff5c33, #Ff471a);*/
 }
 
 quote {
@@ -105,9 +105,13 @@ td {
 
 footer {
     text-align: right;
-    padding: 3px;
+    padding: 25px;
     background-color: #000000;
     color: white;
+}
+
+p.big {
+    line-height: 0.7;
 }
 
 @media only screen and (max-width: 441px) {
@@ -120,4 +124,4 @@ footer {
 /*http://www.learningaboutelectronics.com/Articles/How-to-create-links-to-within-the-same-page-in-HTML.php#personal_life*/
 
 
-/*support server,contact,invite*/
+/*support server,contact*/
